@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.userChoices {
+    padding: 30px;
+    border: 1px, solid, red;
+    color: white;
+    background-color: black;
+    display: flex;   
+}

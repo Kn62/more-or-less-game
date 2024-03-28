@@ -1,6 +1,6 @@
-const randomNumber = Math.floor(Math.random() * 101 );
+const randomNumber = 50 // Math.floor(Math.random() * 101 );
 let userChoices;
-let numberOfTry = 0;
+let numberOfTry = 1;
 
 while (userChoices !== randomNumber) {
     userChoices = Number(prompt("choose a number between 1-100"))
